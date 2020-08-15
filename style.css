@@ -1,0 +1,37 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header styling */
+.header__info-link {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-color: #1d1d1b;
+    color: #bbbbbb;
+    font-size: 0.75rem;
+    padding: 0.7rem 12rem 0.7rem 7rem;
+}
+
+.header__info-link a {
+    color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header__info-link a:hover {
+    color: white;
+}
+
+.header__information h3 {
+    display: inline-block; 
+}
+
+.header__information h3,
+.header__links a {
+    margin: 0 0.5rem;
+}
+
+/* header styling end*/
