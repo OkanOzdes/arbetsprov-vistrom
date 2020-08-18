@@ -31,7 +31,7 @@
                     <li><a href="#">Lista (2)</a></li>
                     <li>
                         <a href="#">Kundkorg (2) 
-                            <!-- <i class="fas fa-shopping-cart"></i> -->
+                            <i class="fas fa-shopping-cart"></i>
                         </a>
                     </li>
                 </ul>
@@ -63,7 +63,7 @@
                     <div class="product__available">
                         <div class="news">Nyhet</div>
                         <div class="available">
-                            <!-- <i class="fas fa-check"></i> -->
+                            <i class="fas fa-check"></i>
                             Finns i lager
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                     <div class="accordion__item show">
                         <div class="accordion__item-header show">
                             Produktbeskrivning
-                            <span>ikon</span>
+                            <span><i class="fas fa-angle-down"></i></span>
                         </div>
                         <div class="accordion__item-body show">
                             <p>Detta är lite text som berättar om produkten</p>
@@ -99,7 +99,7 @@
                     <div class="accordion__item">
                         <div class="accordion__item-header">
                             Storlek & Passform
-                            <span>ikon</span>
+                            <span><i class="fas fa-angle-down"></i></span>
                         </div>
                         <div class="accordion__item-body">
                             <p>Detta är lite text som berättar om produkten</p>
@@ -108,7 +108,7 @@
                     <div class="accordion__item">
                         <div class="accordion__item-header">
                             Tvätt & Skötselråd
-                            <span>ikon</span>
+                            <span><i class="fas fa-angle-down"></i></span>
                         </div>
                         <div class="accordion__item-body">
                             <p>Detta är lite text som berättar om produkten</p>
@@ -117,7 +117,7 @@
                     <div class="accordion__item">
                         <div class="accordion__item-header">
                             Leverans & Retur
-                            <span>ikon</span>
+                            <span><i class="fas fa-angle-down"></i></span>
                         </div>
                         <div class="accordion__item-body">
                             <p>Detta är lite text som berättar om produkten</p>
@@ -210,7 +210,7 @@
         <footer class="footer">
             <div class="footer__links">
                 <div class="footer__links-left">
-                    <div class="footer__links-shop">
+                    <div class="footer__links-shop link-group">
                         <h2>Shop</h2>
                         <ul>
                             <li><a href="#">Herr</a></li>
@@ -219,9 +219,8 @@
                             <li><a href="#">Rea</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="footer__links-middle">
-                    <div class="footer__links-service">
+             
+                    <div class="footer__links-service link-group">
                         <h2>Kundservice</h2>
                         <ul>
                             <li>Order</li>
@@ -234,20 +233,41 @@
                 <div class="footer__links-right">
                     <div class="footer__links-contact">
                         <h2>Kontakt</h2>
-                        <ul>
-                            <li>Kontaktuppgifter</li>
-                            <li>Tel: 0700 00 00 00</li>
-                            <li>E-post <span>info@foretaget.se</span></li>
-                            
-                        </ul>
-                        <ul>
-							<li><h3>Viström Webb AB</h3></li>
-							<li>Kungsgatan 9</li>
-							<li>541 3 Skövde</li>
-						</ul>
+                        <div class="contact-list">
+                            <ul>
+                                <li><h3>Kontaktuppgifter</h3></li>
+                                <li>Tel: 0700 00 00 00</li>
+                                <li>E-post <span>info@foretaget.se</span></li>  
+                            </ul>
+                            <ul>
+                                <li><h3>Viström Webb AB</h3></li>
+                                <li>Kungsgatan 9</li>
+                                <li>541 3 Skövde</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="footer__text">
+                <p class="footer__text-description">
+					<b>
+                        Detta är lite text som beskriver företaget för
+                        sökmotorer vilket resulterar i att vi rankar 
+                        högre.
+                    </b>
+                    Proin ac sodales magna. Suspendisse commodo enim sit amet tincidunt
+                    venenatis, ex neque ultrices justo, vel condimentum felis nisi eu
+                    turpris. Integer non leo dictum, condimentum diam vel, sagittis ligula.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus
+                    sit amet nunc ornare, convallis risus non, laoreet ante. Suspendisse eget
+                    lectus egestas, vehicula velit eu, aliquet diam. Aliquam et tellus id
+                    libero molestie semper a sed orci. Duis hendrerit et congue feugiat.
+				</p>
+				<p class="footer__text-copyright">
+					Viström webb ab <span>&#169;</span> 2017. Alla rättigheter reserverade
+				</p>
+            </div>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
     </body>
 </html>

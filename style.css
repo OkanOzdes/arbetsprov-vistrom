@@ -128,6 +128,15 @@
     display: inline-block;
 }
 
+.fa-check {
+    color: lightgreen;
+}
+
+.fa-angle-down {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
 .product__sale-information {
     flex-grow: 1;
 }
@@ -234,6 +243,9 @@
     border-bottom: 1px solid #ccc;
 }
 
+.accordion__item p {
+    font-size: 0.7rem;
+}
 .accordion__item.show {
     color: #1d1d1b;
 }
@@ -455,7 +467,81 @@
     padding: 7rem 7rem 0;
 }
 
-.footer__links a {
+.footer,
+.footer a {
     text-decoration: none;
     color: #ccc;
 }
+
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer__links-left {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.footer__links-shop li,
+.footer__links-service li,
+.contact-list li {
+    margin: 1rem 0;
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.footer__links-right {
+    width: 35%;
+}
+
+.link-group {
+    margin: 0 0 2rem 0;
+    min-width: 150px; }
+
+.contact-list {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.contact-list ul:first-child {
+    margin-right: 15%;
+}
+
+.footer__links h2 {
+    color: #fff;
+    text-transform: uppercase; 
+    font-size: 1.10rem;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+.footer__text-description {
+    width: 100%;
+    margin: 0 auto; 
+    padding: 4rem;
+    font-size: 0.8rem;
+}
+
+.footer__text-description b {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+.footer__text-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 2rem 0;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+  
