@@ -1,0 +1,200 @@
+.container {
+    margin: 5rem 7rem;
+ }
+ 
+ .product__img-container {
+     position: relative;
+     width: 100%;
+ }
+ 
+ .product__img-container img {
+     width: 100%; 
+ }
+ 
+ .fa-angle-right {
+     font-size: 1.3rem;
+     margin-left: 1rem;
+     text-align: center;
+ }
+ 
+ .more__products-title {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-transform: uppercase;
+     font-size: 0.9rem;
+     letter-spacing: 1px;
+     color: #1d1d1b;
+     margin-bottom: 2rem;
+ }
+ 
+ .more__products-title h3 {
+     font-weight: 500;
+ }
+ 
+ .more__products-all{
+     text-decoration: none;
+     color: #1d1d1b;
+ }
+ 
+ .more__products-items {
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .more__product-item {   
+     text-align: center;
+     font-size: 0.9rem;
+ }
+ 
+ .more__product-item-brand {
+     text-transform: uppercase;
+     font-weight: 700;
+     margin: 1rem 0;
+ }
+ 
+ .more__product-item-desc {
+     color: #666;
+     width: 220px;
+     margin: 0 auto;
+     line-height: 1.25rem;
+ }
+ 
+ .special-item {
+     position: absolute;
+     top: 0;
+     left: 0;
+     color: #ebebec;
+     text-transform: uppercase;
+     padding: 0.25rem 0;
+     letter-spacing: 1px;
+     width: 6rem;
+ }
+ 
+ .more__product-item-price {
+     font-weight: 700;
+     margin: 1rem 0;
+     font-size: 0.9rem;
+ }
+ 
+ .old__price {
+     text-decoration: line-through;
+     font-weight: 400;
+     margin-right: 0.5rem;
+ }
+ 
+ .new__price {
+     color: crimson;
+ }
+ 
+ .new {
+     background: #1d1d1d;
+ }
+ 
+ .campaign {
+     background: #3b4053;
+ }
+ 
+ .more__product-item:not(:last-child) {
+     margin-right: 1rem; 
+ }
+ 
+ .newsletter {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background: url("./Material/newsletter_bg.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+     height: 300px;
+     margin: 2rem 7rem;
+     padding: 2rem;
+     overflow: hidden;
+ }
+ 
+ .newsletter::before {
+     content: "";
+     position: absolute;
+     background: rgba(0, 0, 0, 0.5);
+     z-index: 1;
+     width: 100%;
+     height: 100%; 
+ }
+ 
+ .newsletter__info {
+     z-index: 2;
+     color: #ebebec;
+     width: 30%;
+     text-align: center;
+     line-height: 2rem;
+     font-weight: 500;
+ }
+ 
+ .newsletter__header {
+     text-transform: uppercase;
+     font-weight: 500;
+     margin-bottom: 2rem;
+ }
+ 
+ .newsletter__text {
+     font-size: 0.9rem;
+ }
+ 
+ .newsletter__subscribe {
+     margin: 0 1rem;
+     display: flex;
+     z-index: 2;
+     font-size: 1.2rem;
+     width: 35%;
+     justify-content: center;
+ }
+ 
+ .newsletter__subscribe input {
+     padding: 1rem;
+     background: #ffffff;
+     border: none;
+     text-transform: uppercase;
+     flex-grow: 1;
+ }
+ 
+ .newsletter__submit {
+     background: #141526;
+     padding: 0.8rem 1.5rem;
+     color: #fff;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     border: none;
+     cursor: pointer;
+     font-weight: 400;
+ }
+
+ .btn__container {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     background: #f1f1f1;
+     padding: 3rem 7rem;
+ }
+ 
+ .btn__container button {
+     background: none;
+     border: 1.5px solid black;
+     padding: 1rem 0;
+     font-size: 1rem;
+     font-weight: 500;
+     cursor: pointer;
+     text-transform: uppercase;
+     flex-grow: 1;
+     margin-bottom: 0.25rem;
+     cursor: pointer;
+ }
+ 
+ .btn__container button:hover {
+     background: #cececa
+ }
+ 
+ .btn__container button:not(:last-child) {
+     margin-right: 2rem; 
+ }
