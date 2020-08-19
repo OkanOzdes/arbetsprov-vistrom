@@ -1,3 +1,11 @@
+function openNav() {
+	document.querySelector(".sidenav").style.width = "40%";
+  }
+  
+  function closeNav() {
+	document.querySelector(".sidenav").style.width = "0";
+  }
+
 const accordionItems = document.querySelectorAll(".accordion__item");
 accordionItems.forEach((btn) => {
     btn.addEventListener("click", () => {
